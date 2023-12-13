@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luxeris</title>
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
     <!-- Navbar -->
-    <div class="navbar">
-        <div class="logo">
-            <img src="./assets/img/LUXERIS.png" alt="">
-        </div>
-        <div class="list">
-            <ul>
-                <li><a href="">Management</a></li>
-                <li><a href="">Maintenance</a></li>
-                <li><a href="">Form</a></li>
-                <li><a href="">Investor</a></li>
-            </ul>
-        </div>
-        <div class="signup">
-            <button class="btn-signup">Sign Up</button>
-        </div>
+    <div class="navbar" data-aos="fade-down" data-aos-duration="1000">
+      <div class="logo">
+        <img src="./assets/img/LUXERIS.png" alt="" />
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="">Management</a></li>
+          <li><a href="">Maintenance</a></li>
+          <li><a href="">Form</a></li>
+          <li><a href="">Investor</a></li>
+        </ul>
+      </div>
+      <div class="signup">
+        <button class="btn-signup">Sign Up</button>
+      </div>
     </div>
 
     <div class="home">
-        <div class="container-text">
-            <h1>Your leisure time <br> is Important</h1>
-            <p>Lets us take care of your property</p> <br> <br>
-            
-        </div>
-        
-        <div class="container-home">
-            <img src="./assets/img/property-home.png" alt="">
-        </div>
+      <div class="container-text" data-aos="fade-right" data-aos-duration="1500">
+        <h1>
+          Your leisure time <br />
+          is Important
+        </h1>
+        <p>Lets us take care of your property</p>
+        <br />
+        <br />
+      </div>
 
-        <div class="btn-text-container">
-                <button class="btn-get">Get Started</button>
-                <button class="btn-talk">Lets Talk</button>
-        </div>
+      <div class="container-home" data-aos="fade-left" data-aos-duration="1500">
+        <img src="./assets/img/property-home.png" alt="" />
+      </div>
 
-        
-
+      <div class="btn-text-container" data-aos="fade-right" data-aos-duration="1500">
+        <button class="btn-get">Get Started</button>
+        <button class="btn-talk">Lets Talk</button>
+      </div>
     </div>
-    <div class="details">
-            <table>
-                <tr>
-                    <td>10900</td>
-                    <td>654.698</td>
-                    <td>12664</td>
-                    <td class="akhirr">20500</td>
-                </tr>
-                <tr>
-                    <th>Units</th>
-                    <th>Property</th>
-                    <th>Employees</th>
-                    <th class="akhir">Residents</th>
-                </tr>
-                
-            </table>
+
+        <div class="details" data-aos="fade-up" data-aos-duration="2200">
+          <table>
+            <tr>
+              <td class="num" data-val="2900">00000</td>
+              <td class="num" data-val="5690">000000</td>
+              <td class="num" data-val="2300">00000</td>
+              <td id="akhirr" class="num" data-val="2750">00000</td>
+            </tr>
+            <tr>
+              <th>Units</th>
+              <th>Property</th>
+              <th>Employees</th>
+              <th class="akhir">Residents</th>
+            </tr>
+          </table>
         </div>
-</body>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
